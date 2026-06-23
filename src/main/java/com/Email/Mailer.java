@@ -12,8 +12,8 @@ public class Mailer {
         String subject = "nill";
         String msg = "test";
 
-        final String user = "alageshmani1@gmail.com";
-        final String pass = "ynwqerbesmadkvpk"; // NOT normal password
+        final String user = "YOUR_EMAIL";
+        final String pass = "YOUR_APP_PASSWORD";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
